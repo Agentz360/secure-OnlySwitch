@@ -76,7 +76,7 @@ Everyone can contribute macOS Shortcuts for OnlySwitch now. Please read [How to 
 | Dim Screen          | finished        | Eject Discs              | finished          |
 | Hide Windows        | partly finished | True Tone                | finished          |
 | Top Sticker         | partly finished | Key Light                | finished          |
-| Only Agent          | finished        |                          |                   |
+| Only Agent          | finished        | Authenticator            | finished          |
 
 Since Version 1.3, switches can be added to or removed from the list.
 
@@ -257,6 +257,8 @@ Since version 2.3.10, this switch can be controlled via right-click icons.
 @wrngwrld for the volume slider of the radio player
 
 @kant for syntax issue 
+
+@Ryderwe for Authenticator
 
 
 ## License

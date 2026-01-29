@@ -23,6 +23,7 @@ struct OnlySwitchListView: View {
     @State private var movingIndex = -1
     @State private var hoverIndex = -1
     @ObservedObject private var playerItem = RadioStationSwitch.shared.playerItem
+    @ObservedObject private var authenticatorStore = AuthenticatorStore.shared
     @ObservedObject private var languageManager = LanguageManager.sharedManager
     @FocusState var focusedBar: Focusable?
 
@@ -46,10 +47,15 @@ struct OnlySwitchListView: View {
                     .isHidden(SwitchListAppearance(rawValue: switchVM.currentAppearance) == .single, remove: true)
                 
                 ScrollView {
-                    if switchVM.currentAppearance == SwitchListAppearance.single.rawValue {
-                        singleSwitchList
-                    } else {
-                        dualcolumnList
+                    VStack(spacing: 0) {
+                        AuthenticatorPanelView()
+                            .isHidden(!shouldShowAuthenticatorPanel, remove: true)
+
+                        if switchVM.currentAppearance == SwitchListAppearance.single.rawValue {
+                            singleSwitchList
+                        } else {
+                            dualcolumnList
+                        }
                     }
                     
                 }
@@ -419,6 +425,9 @@ struct OnlySwitchListView: View {
     var scrollViewHeight: CGFloat {
         let switchCount = visableSwitchCount + switchVM.shortcutsList.count + switchVM.evolutionList.count
         var totalHeight = CGFloat(switchCount) * (Layout.singleSwitchHeight + 17)
+        if shouldShowAuthenticatorPanel {
+            totalHeight += 45.0
+        }
         //two columns
         if switchVM.currentAppearance == SwitchListAppearance.dual.rawValue {
             totalHeight = categoryHeight(count: switchVM.uncategoryItemList.count)
@@ -461,6 +470,10 @@ struct OnlySwitchListView: View {
     
     var soundWaveHeight:CGFloat {
         SwitchListAppearance(rawValue: switchVM.currentAppearance) == .single ? Layout.soundWaveHeight : Layout.soundWaveHeight / 2
+    }
+
+    var shouldShowAuthenticatorPanel: Bool {
+        authenticatorStore.enabled
     }
     
     func itemOffsetY(index:Int) -> CGFloat {

@@ -358,6 +358,16 @@
 		04FC1613283FDE1D00D4A4AC /* ShortcutsSettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC1612283FDE1D00D4A4AC /* ShortcutsSettingModel.swift */; };
 		04FC161628402E5000D4A4AC /* ShortcutOnMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC161528402E5000D4A4AC /* ShortcutOnMarket.swift */; };
 		04FC161728402E5200D4A4AC /* ShortcutOnMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC161528402E5000D4A4AC /* ShortcutOnMarket.swift */; };
+		A1D0E1002F0A000100BEEF01 /* AuthenticatorModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D0E0012F0A000100BEEF01 /* AuthenticatorModels.swift */; };
+		A1D0E1012F0A000100BEEF01 /* Base32.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D0E0022F0A000100BEEF01 /* Base32.swift */; };
+		A1D0E1022F0A000100BEEF01 /* TOTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D0E0032F0A000100BEEF01 /* TOTP.swift */; };
+		A1D0E1032F0A000100BEEF01 /* ProtoReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D0E0042F0A000100BEEF01 /* ProtoReader.swift */; };
+		A1D0E1042F0A000100BEEF01 /* OtpAuthImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D0E0052F0A000100BEEF01 /* OtpAuthImport.swift */; };
+		A1D0E1052F0A000100BEEF01 /* AuthenticatorStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D0E0062F0A000100BEEF01 /* AuthenticatorStore.swift */; };
+		A1D0E1062F0A000100BEEF01 /* AuthenticatorImportSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D0E0072F0A000100BEEF01 /* AuthenticatorImportSheet.swift */; };
+		A1D0E1072F0A000100BEEF01 /* AuthenticatorPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D0E0082F0A000100BEEF01 /* AuthenticatorPanelView.swift */; };
+		A1D0E1082F0A000100BEEF01 /* AuthenticatorSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D0E0092F0A000100BEEF01 /* AuthenticatorSettingsView.swift */; };
+		A1D0E1092F0A000100BEEF01 /* AuthenticatorSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D0E00A2F0A000100BEEF01 /* AuthenticatorSwitch.swift */; };
 		A93C8BE12ECA34D700D7CE52 /* AICommanderSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93C8BE02ECA34CB00D7CE52 /* AICommanderSwitch.swift */; };
 		A93C8BE22ECA34D700D7CE52 /* AICommanderSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93C8BE02ECA34CB00D7CE52 /* AICommanderSwitch.swift */; };
 		A93C8BE42ECA376900D7CE52 /* OnlyAgent in Frameworks */ = {isa = PBXBuildFile; productRef = A93C8BE32ECA376900D7CE52 /* OnlyAgent */; };
@@ -670,6 +680,16 @@
 		04FC160F283F92B200D4A4AC /* GitHubEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubEndpoint.swift; sourceTree = "<group>"; };
 		04FC1612283FDE1D00D4A4AC /* ShortcutsSettingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsSettingModel.swift; sourceTree = "<group>"; };
 		04FC161528402E5000D4A4AC /* ShortcutOnMarket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutOnMarket.swift; sourceTree = "<group>"; };
+		A1D0E0012F0A000100BEEF01 /* AuthenticatorModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatorModels.swift; sourceTree = "<group>"; };
+		A1D0E0022F0A000100BEEF01 /* Base32.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base32.swift; sourceTree = "<group>"; };
+		A1D0E0032F0A000100BEEF01 /* TOTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOTP.swift; sourceTree = "<group>"; };
+		A1D0E0042F0A000100BEEF01 /* ProtoReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtoReader.swift; sourceTree = "<group>"; };
+		A1D0E0052F0A000100BEEF01 /* OtpAuthImport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpAuthImport.swift; sourceTree = "<group>"; };
+		A1D0E0062F0A000100BEEF01 /* AuthenticatorStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatorStore.swift; sourceTree = "<group>"; };
+		A1D0E0072F0A000100BEEF01 /* AuthenticatorImportSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatorImportSheet.swift; sourceTree = "<group>"; };
+		A1D0E0082F0A000100BEEF01 /* AuthenticatorPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatorPanelView.swift; sourceTree = "<group>"; };
+		A1D0E0092F0A000100BEEF01 /* AuthenticatorSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatorSettingsView.swift; sourceTree = "<group>"; };
+		A1D0E00A2F0A000100BEEF01 /* AuthenticatorSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatorSwitch.swift; sourceTree = "<group>"; };
 		A93C8BE02ECA34CB00D7CE52 /* AICommanderSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AICommanderSwitch.swift; sourceTree = "<group>"; };
 		A9C70D052EE490B3000A2367 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -787,6 +807,7 @@
 			children = (
 				0447E39A2B7174F000D07B9A /* SwitchType++.swift */,
 				A93C8BE02ECA34CB00D7CE52 /* AICommanderSwitch.swift */,
+				A1D0E00A2F0A000100BEEF01 /* AuthenticatorSwitch.swift */,
 				0447E33F2B71746C00D07B9A /* AirPodsSwitch.swift */,
 				0447E3382B71746C00D07B9A /* AppleMusicSwitch.swift */,
 				0447E3492B71746D00D07B9A /* AutohideDockSwitch.swift */,
@@ -921,6 +942,7 @@
 		043E5D672757C85500ADC004 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				A1D0E0002F0A000100BEEF01 /* Authenticator */,
 				04A5AA572C39F8A2001070CA /* OnlyControl */,
 				04BF976C27908E0100E7C0E2 /* OnlySwitchList */,
 				04BF976D27908E2800E7C0E2 /* SwitchItem */,
@@ -1293,6 +1315,7 @@
 		049337952762C05200AE779A /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				A9ABF7312F27C67B00669338 /* Authenticator */,
 				04BF977127908EBC00E7C0E2 /* SettingsView */,
 				047C1E482A2250EF0061235D /* Evolution */,
 				04BF977627908F1100E7C0E2 /* General */,
@@ -1649,6 +1672,29 @@
 			path = Networking;
 			sourceTree = "<group>";
 		};
+		A1D0E0002F0A000100BEEF01 /* Authenticator */ = {
+			isa = PBXGroup;
+			children = (
+				A1D0E0012F0A000100BEEF01 /* AuthenticatorModels.swift */,
+				A1D0E0052F0A000100BEEF01 /* OtpAuthImport.swift */,
+				A1D0E0042F0A000100BEEF01 /* ProtoReader.swift */,
+				A1D0E0022F0A000100BEEF01 /* Base32.swift */,
+				A1D0E0032F0A000100BEEF01 /* TOTP.swift */,
+				A1D0E0082F0A000100BEEF01 /* AuthenticatorPanelView.swift */,
+			);
+			path = Authenticator;
+			sourceTree = "<group>";
+		};
+		A9ABF7312F27C67B00669338 /* Authenticator */ = {
+			isa = PBXGroup;
+			children = (
+				A1D0E0092F0A000100BEEF01 /* AuthenticatorSettingsView.swift */,
+				A1D0E0072F0A000100BEEF01 /* AuthenticatorImportSheet.swift */,
+				A1D0E0062F0A000100BEEF01 /* AuthenticatorStore.swift */,
+			);
+			path = Authenticator;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1989,6 +2035,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1D0E1092F0A000100BEEF01 /* AuthenticatorSwitch.swift in Sources */,
+				A1D0E1002F0A000100BEEF01 /* AuthenticatorModels.swift in Sources */,
+				A1D0E1012F0A000100BEEF01 /* Base32.swift in Sources */,
+				A1D0E1022F0A000100BEEF01 /* TOTP.swift in Sources */,
+				A1D0E1032F0A000100BEEF01 /* ProtoReader.swift in Sources */,
+				A1D0E1042F0A000100BEEF01 /* OtpAuthImport.swift in Sources */,
+				A1D0E1052F0A000100BEEF01 /* AuthenticatorStore.swift in Sources */,
+				A1D0E1062F0A000100BEEF01 /* AuthenticatorImportSheet.swift in Sources */,
+				A1D0E1072F0A000100BEEF01 /* AuthenticatorPanelView.swift in Sources */,
+				A1D0E1082F0A000100BEEF01 /* AuthenticatorSettingsView.swift in Sources */,
 				0447E35F2B71746E00D07B9A /* AppleMusicSwitch.swift in Sources */,
 				04B25453283BEF3800D253E2 /* SupportedLanguage.swift in Sources */,
 				04DC6C8228A5A8C300888BF9 /* BackNoisesSettingView.swift in Sources */,
@@ -2256,7 +2312,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 248;
+				CURRENT_PROJECT_VERSION = 250;
 				DEVELOPMENT_TEAM = B22726TNGH;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = OnlySwitchTests/Info.plist;
@@ -2282,7 +2338,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 248;
+				CURRENT_PROJECT_VERSION = 250;
 				DEVELOPMENT_TEAM = B22726TNGH;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = OnlySwitchTests/Info.plist;
@@ -2435,7 +2491,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 248;
+				CURRENT_PROJECT_VERSION = 250;
 				DEVELOPMENT_ASSET_PATHS = "\"OnlySwitch/Preview Content\"";
 				DEVELOPMENT_TEAM = B22726TNGH;
 				"DEVELOPMENT_TEAM[sdk=macosx*]" = B22726TNGH;
@@ -2454,14 +2510,14 @@
 				INFOPLIST_KEY_LSUIElement = NO;
 				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Only Switch needs to control System Events";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Only Switch requests Bluetooth usage to switch Airpods connection";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021-2025 Jacklandrin";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021-2026 Jacklandrin";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 2.6.4;
+				MARKETING_VERSION = 2.6.5;
 				OTHER_SWIFT_FLAGS = "-enforce-exclusivity=unchecked";
 				PRODUCT_BUNDLE_IDENTIFIER = jacklandrin.OnlySwitch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2490,7 +2546,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 248;
+				CURRENT_PROJECT_VERSION = 250;
 				DEVELOPMENT_ASSET_PATHS = "\"OnlySwitch/Preview Content\"";
 				DEVELOPMENT_TEAM = B22726TNGH;
 				"DEVELOPMENT_TEAM[sdk=macosx*]" = B22726TNGH;
@@ -2509,14 +2565,14 @@
 				INFOPLIST_KEY_LSUIElement = NO;
 				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Only Switch needs to control System Events";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Only Switch requests Bluetooth usage to switch Airpods connection";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021-2025 Jacklandrin";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021-2026 Jacklandrin";
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 2.6.4;
+				MARKETING_VERSION = 2.6.5;
 				OTHER_SWIFT_FLAGS = "-enforce-exclusivity=unchecked";
 				PRODUCT_BUNDLE_IDENTIFIER = jacklandrin.OnlySwitch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2545,7 +2601,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 248;
+				CURRENT_PROJECT_VERSION = 250;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=macosx*]" = B22726TNGH;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -2562,7 +2618,7 @@
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 2.6.4;
+				MARKETING_VERSION = 2.6.5;
 				PRODUCT_BUNDLE_IDENTIFIER = jacklandrin.OnlySwitch.OnlyWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = OnlySwitchWidgets;
@@ -2585,7 +2641,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 248;
+				CURRENT_PROJECT_VERSION = 250;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=macosx*]" = B22726TNGH;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -2602,7 +2658,7 @@
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 2.6.4;
+				MARKETING_VERSION = 2.6.5;
 				PRODUCT_BUNDLE_IDENTIFIER = jacklandrin.OnlySwitch.OnlyWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = OnlySwitchWidgets;
